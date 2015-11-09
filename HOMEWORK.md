@@ -1,5 +1,8 @@
-Homework: About page
-====================
+Programming For Non-Programmers
+===============================
+
+Session 1 Homework
+------------------
 
 Build an _About_ page for your site.
 Add some images and text to practice with all the tags
@@ -15,8 +18,15 @@ You can try things like:
 Any list that doesn't include _The Godfather_ gets -25 points.
 
 
-Weekly Timesink: W3Schools tutorials
-------------------------------------
+Session 3 Homework
+------------------
 
-Now that you know a bit of HTML and CSS, try to work on the
-[W3Schools tutorials](http://www.w3schools.com/).
+### Homework #1 ###
+
+Reproduce this small design in CSS.
+
+![Twitter #Music Panel](img/twitter-music-panel.jpg)
+
+Here are some sizes and colors for reference:
+
+![Twitter #Music Panel Guide](img/twitter-music-reference.jpg)
