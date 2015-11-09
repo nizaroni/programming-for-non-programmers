@@ -18,34 +18,37 @@
 
     <p>
       All inputs should have labels.
+      All inputs should have name attributes for submission.
       All inputs that require typing should have placeholders.
       We are putting div tags around inputs
       so that we don't get all the inputs in one line.
+      Finally, a button tag needs to be inside the form for submission.
     </p>
+
 
     <form>
       <!-- div tags so they won't all be in one line -->
       <div>
         <!-- Single-line text input -->
         <label for="my-username">Name:</label>
-        <input type="text" id="my-username" placeholder="Izzy Ironside">
+        <input type="text" name="user-name" id="my-username" placeholder="Izzy Ironside">
       </div>
 
       <div>
         <!-- Email input -->
         <label for="my-email">Email:</label>
-        <input type="email" id="my-email" placeholder="han@smugglers.sexy">
+        <input type="email" name="user-email" id="my-email" placeholder="han@smugglers.sexy">
       </div>
 
       <div>
         <!-- Number input -->
         <label for="my-age">Age:</label>
-        <input type="number" id="my-age" placeholder="42">
+        <input type="number" name="user-age" id="my-age" placeholder="42">
       </div>
 
       <div>
         <!-- Checkbox input -->
-        <input type="checkbox" id="confirm-moneyz">
+        <input type="checkbox" name="confirmation" id="confirm-moneyz">
         <label for="confirm-moneyz">
           I confirm I will give Nizar $1,000,000
         </label>
@@ -56,14 +59,15 @@
 
         <!-- Radio inputs (multiple selection) -->
         <!-- All radio inputs belonging to the same selection -->
-        <!-- need the same name attribute -->
-        <input type="radio" name="food" id="food-pizza">
+        <!-- need the same name attribute. -->
+        <!-- Each should have a different value. -->
+        <input type="radio" name="food" value="pizza" id="food-pizza">
         <label for="food-pizza">Pizza</label>
 
-        <input type="radio" name="food" id="food-burger">
+        <input type="radio" name="food" value="burger" id="food-burger">
         <label for="food-burger">Burger</label>
 
-        <input type="radio" name="food" id="food-quinoa">
+        <input type="radio" name="food" value="quinoa" id="food-quinoa">
         <label for="food-quinoa">Quinoa</label>
       </div>
 
@@ -74,14 +78,14 @@
       <div>
         <!-- Multiple line input -->
         <label for="my-long-text">Long text input:</label>
-        <textarea id="my-long-text" placeholder="Blah blah blah"></textarea>
+        <textarea name="user-long-text" id="my-long-text" placeholder="Blah blah blah"></textarea>
       </div>
 
 
       <div>
         <!-- Dropdown -->
         <label for="my-dropdown">Dropdown input:</label>
-        <select id="my-dropdown">
+        <select name="dropdown-selection" id="my-dropdown">
           <!-- Option tags denote selections in the dropdown -->
           <option>First option</option>
           <!-- Use the selected attribute to set a default -->
@@ -89,7 +93,14 @@
           <option>Third option</option>
         </select>
       </div>
+
+
+      <!-- Need a button tag to submit the form -->
+      <button type="submit">
+        Submit this form
+      </button>
     </form>
+
 
   </body>
 </html>
