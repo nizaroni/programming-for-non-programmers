@@ -18,10 +18,37 @@ You can try things like:
 Any list that doesn't include _The Godfather_ gets -25 points.
 
 
+Session 2 Homework
+------------------
+
+### HTML Homework #1 ###
+
+Create a page with a login form.
+It should include:
+
+- An email or username field.
+- A password field.
+- A checkbox to remember my credentials.
+- A button to log in.
+
+### HTML Homework #2 ###
+
+Create the markup for an article with a comment form.
+It should include:
+
+- Different containers for the article content and the comment form
+- _Content_: A title, a subtitle, a date,
+  an author (linked to it’s personal Twitter account),
+  a list, some placeholder text paragraphs,
+  a picture of Nicolas Cage on a muffin, in space.
+- _Comment form_: A name field, an email field, a textarea,
+  a ‘remember my data’ option and a submit button.
+
+
 Session 3 Homework
 ------------------
 
-### Homework #1 ###
+### CSS Homework #1 ###
 
 Reproduce this small design in CSS.
 
