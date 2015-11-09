@@ -16,20 +16,31 @@
 
     <h2>Forms</h2>
 
-    <p>All inputs should have labels.</p>
+    <p>
+      All inputs should have labels.
+      We are putting div tags around inputs
+      so that we don't get all the inputs in one line.
+    </p>
 
     <form>
-      <!-- Single-line text input -->
-      <label for="my-text-input">Text input:</label>
-      <input type="text" id="my-text-input">
+      <!-- div tags so they won't all be in one line -->
+      <div>
+        <!-- Single-line text input -->
+        <label for="my-text-input">Text input:</label>
+        <input type="text" id="my-text-input">
+      </div>
 
-      <!-- Multiple line input -->
-      <label for="my-long-text">Long text input:</label>
-      <textarea id="my-long-text"></textarea>
+      <div>
+        <!-- Multiple line input -->
+        <label for="my-long-text">Long text input:</label>
+        <textarea id="my-long-text"></textarea>
+      </div>
 
-      <!-- Dropdown (empty) -->
-      <label for="my-dropdown">Dropdown input:</label>
-      <select id="my-dropdown"></select>
+      <div>
+        <!-- Dropdown (empty) -->
+        <label for="my-dropdown">Dropdown input:</label>
+        <select id="my-dropdown"></select>
+      </div>
     </form>
 
   </body>
