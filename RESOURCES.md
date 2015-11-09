@@ -7,6 +7,7 @@ General
 - **Google Chrome's Developer Tools** (https://developer.chrome.com/devtools)
 - **Slack** (https://slack.com)
 - **Learn to Code HTML & CSS** (http://learn.shayhowe.com/html-css)
+- **W3Schools tutorials** (http://www.w3schools.com)
 
 
 HTML
