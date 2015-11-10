@@ -1,0 +1,54 @@
+/* style.css */
+
+html {
+  background-color: salmon;
+}
+
+body {
+  background-color: grey;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+.middle {
+  background-color: black;
+  font-size: 22px;
+}
+
+a.middle {
+  color: yellow;
+  text-decoration: none;
+}
+
+.middle.heading {
+  color: burlywood;
+  font-size: 40px;
+}
+
+
+/*===============================
+=================================
+INPUTS
+=================================*/
+input[type] {
+  width: 400px;
+  font-size: 20px;
+}
+
+[type="email"] {
+  background-color: red;
+  color: white;
+}
+
+[type="tel"] {
+  background-color: blue;
+  color: white;
+}
+
+#super-important {
+  font-size: 40px;
+}
