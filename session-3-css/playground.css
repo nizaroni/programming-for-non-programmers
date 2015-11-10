@@ -1,0 +1,28 @@
+/* class="box blue" */
+.blue {
+  background-color: blue;
+  color: white;
+  border: 5px solid red;
+}
+
+/* id="red" */
+#red {
+  background-color: red;
+  color: white;
+  border: 5px solid blue;
+}
+
+/* class="box green" */
+.green {
+  background-color: green;
+  color: white;
+}
+
+.box {
+  margin: 10px;
+}
+
+
+.direction {
+  padding: 20%;
+}
