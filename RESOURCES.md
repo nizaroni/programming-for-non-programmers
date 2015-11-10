@@ -28,6 +28,7 @@ CSS
 
 - **CSS Tricks** (https://css-tricks.com)
 - **Learn CSS Layout** (http://learnlayout.com)
+- **CSS Diner** (http://flukeout.github.io)
 
 
 Other interests
