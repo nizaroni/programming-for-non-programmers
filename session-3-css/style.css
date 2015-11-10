@@ -52,3 +52,25 @@ input[type] {
 #super-important {
   font-size: 40px;
 }
+
+.mega-hover:hover {
+  font-size: 50px;
+  color: pink;
+}
+
+.mega-focus:focus {
+  font-size: 50px;
+  color: yellow;
+  background-color: black;
+  width: 700px;
+}
+
+
+.something a {
+  font-size: 10px;
+}
+
+.something > a {
+  background-color: aquamarine;
+}
+
