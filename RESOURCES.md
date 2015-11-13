@@ -29,6 +29,13 @@ CSS
 - **CSS Tricks** (https://css-tricks.com)
 - **Learn CSS Layout** (http://learnlayout.com)
 - **CSS Diner** (http://flukeout.github.io)
+- **Colors**:
+  * _Color Picker_ (http://hslpicker.com)
+  * _Adobe Color_ (https://color.adobe.com/explore)
+  * _0to255_ (http://www.0to255.com)
+- **Fonts**:
+  * _Font stacks_ (https://css-tricks.com/snippets/css/font-stacks)
+  * _Web Safe Fonts_ (http://www.cssfontstack.com)
 
 
 Other interests
