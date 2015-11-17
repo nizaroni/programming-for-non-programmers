@@ -15,10 +15,17 @@
 
 .search {
   background-color: #eee;
+  width: 100%;
+}
+
+.empty {
+  background-color: #fff;
+  width: 100%;
 }
 
 .login {
-  background-color: #bbb;
+  background-color: #ddd;
+  width: 100%;
 }
 
 
