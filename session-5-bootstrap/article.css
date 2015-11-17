@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+.title {
+  border: 3px solid black;
+}
+
+.content {
+  border: 3px solid orange;
+  padding-bottom: 50px;
+}
+
+.login {
+  border: 3px solid pink;
+}
