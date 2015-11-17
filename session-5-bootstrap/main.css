@@ -1,0 +1,40 @@
+/* main.css */
+
+.header {
+  background-color: #ccc;
+}
+
+.logo-row {
+  background-color: #88a974;
+}
+
+.articles {
+  background-color: #9a5f53;
+}
+
+
+.search {
+  background-color: #eee;
+}
+
+.login {
+  background-color: #bbb;
+}
+
+
+.banner-1 {
+  background-color: lightgreen;
+}
+
+.banner-2 {
+  background-color: darkgreen;
+}
+
+
+.left-articles {
+  background-color: brown;
+}
+
+.opinions {
+  background-color: lightgoldenrodyellow;
+}
