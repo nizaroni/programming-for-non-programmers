@@ -57,3 +57,25 @@ Reproduce this small design in CSS.
 Here are some sizes and colors for reference:
 
 ![Twitter #Music Panel Guide](img/twitter-music-reference.jpg)
+
+
+Session 5 Homework
+------------------
+
+### Gmail Clone ###
+
+Copy the Gmail Layout using HTML, CSS and Bootstrap.
+
+You want to copy the basic layout, the Google logo,
+the search bar, control bar and message list.
+
+Ignore the sections crossed out here:
+
+![Gmail layout with sections crossed out](gmail-layout.png)
+
+
+#### Colors ####
+
+- Red: `#d14836`
+- Blue: `#4285f4`
+- Grey: `#f1f1f1`
