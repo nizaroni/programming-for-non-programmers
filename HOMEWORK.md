@@ -79,3 +79,15 @@ Ignore the sections crossed out here:
 - Red: `#d14836`
 - Blue: `#4285f4`
 - Grey: `#f1f1f1`
+
+
+Session 6 Homework
+------------------
+
+### Responsive design homework ###
+
+Go through the article and exercises in this page:
+http://urlnextdoor.com/ai/web-design_2-intro/week10.php.
+
+Use Bootstrap and CSS media queries
+to implement the spider design in a responsive way.
