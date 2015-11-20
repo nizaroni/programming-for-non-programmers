@@ -1,0 +1,61 @@
+.box {
+  height: 200px;
+  background: red;
+}
+
+.rambo {
+  width: 100%;
+}
+
+.rambo-wrapper {
+  overflow: hidden;
+  max-height: 300px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.navigation {
+  display: none;
+}
+
+
+@media (min-width: 480px) {
+  .navigation {
+    display: block;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .box {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media (min-width: 960px) {
+  .box {
+    width: 25%;
+  }
+
+  .navigation {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .box {
+    width: 20%;
+  }
+}
