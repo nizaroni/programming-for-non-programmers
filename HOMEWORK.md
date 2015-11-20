@@ -81,6 +81,13 @@ Ignore the sections crossed out here:
 - Grey: `#f1f1f1`
 
 
+#### Official solution ####
+
+- Live example: http://khalifenizar.github.io/gmail-clone
+- HTML: https://github.com/khalifenizar/gmail-clone/blob/master/views/gmail.erb
+- CSS: https://github.com/khalifenizar/gmail-clone/blob/master/public/css/main.css
+
+
 Session 6 Homework
 ------------------
 
