@@ -84,10 +84,19 @@ Ignore the sections crossed out here:
 Session 6 Homework
 ------------------
 
-### Responsive design homework ###
+### Responsive design homework #1 ###
 
 Go through the article and exercises in this page:
 http://urlnextdoor.com/ai/web-design_2-intro/week10.php.
 
 Use Bootstrap and CSS media queries
 to implement the spider design in a responsive way.
+
+
+### Responsive design homework #2 ###
+
+Recreate the responsive CSS styles of the
+[Public Library site](http://public-library.org/).
+
+You can grab the starting HTML and CSS
+in the [Session 6 folder](session-6-responsive/).
