@@ -92,3 +92,30 @@ a:hover {
   margin: 0;
   font-size: 12px;
 }
+
+
+
+/* ==================================
+----------Index.html styles----------
+=====================================*/
+
+.words {
+  list-style: none;
+  font-size: 30px;
+}
+
+.words li {
+  margin: 15px;
+  float: left;
+}
+
+.pl-link-wrapper {
+  clear: both;
+  font-size: 25px;
+}
+
+.pl-link-wrapper a {
+  margin-top: 20px;
+  display: inline-block;
+  color: salmon;
+}
