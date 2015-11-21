@@ -42,6 +42,14 @@ a:hover {
   margin-right: 0;
 }
 
+.full-title {
+  font-size: 13px;
+  font-weight: normal;
+  float: right;
+  margin: 18px;
+  margin-right: 85px;
+}
+
 .navigation {
   float: left;
   margin: 18px;
@@ -119,3 +127,12 @@ a:hover {
   display: inline-block;
   color: salmon;
 }
+
+/*
+Responsive version:
+- Breakpoint 960px
+- push navigation to the right
+- reduce header margin
+- don't stack boxes
+- hide the right heading
+*/
