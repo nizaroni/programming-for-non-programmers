@@ -101,6 +101,10 @@ a:hover {
   font-size: 12px;
 }
 
+.real-link-wrapper {
+  clear: both;
+}
+
 
 
 /* ==================================
