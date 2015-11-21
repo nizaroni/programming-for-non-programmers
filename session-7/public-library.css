@@ -105,6 +105,9 @@ a:hover {
   clear: both;
 }
 
+img {
+  width: 100%;
+}
 
 
 /* ==================================
@@ -167,5 +170,9 @@ Responsive version:
   .project-list li {
     float: none;
     margin-top: 3px;
+  }
+
+  img {
+    display: none;
   }
 }
