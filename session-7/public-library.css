@@ -134,9 +134,38 @@ a:hover {
 
 /*
 Responsive version:
-- Breakpoint 960px
-- push navigation to the right
-- reduce header margin
-- don't stack boxes
-- hide the right heading
+- √ Breakpoint 960px
+- √ push navigation to the right
+- √ reduce header top margin
+- √ don't stack boxes
+- √ hide the right heading
+- √ spacing between boxes
+- image example (for video)
 */
+
+/* Screens smaller than 960px */
+@media (max-width: 960px) {
+  .site-title {
+    margin-top: 5px;
+  }
+
+  .navigation {
+    float: right;
+    margin-right: 25px;
+    margin-top: 5px;
+  }
+
+  .navigation-list li {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  .full-title {
+    display: none;
+  }
+
+  .project-list li {
+    float: none;
+    margin-top: 3px;
+  }
+}
