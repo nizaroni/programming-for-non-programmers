@@ -69,3 +69,26 @@ a:hover {
   list-style: none;
   clear: both;
 }
+
+.project-list li {
+  width: 190px;
+  height: 135px;
+  float: left;
+  margin-right: 65px;
+  margin-top: 25px;
+}
+
+.project-list time {
+  font-size: 10px;
+}
+
+.project-list h2 {
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+.project-list p {
+  margin: 0;
+  font-size: 12px;
+}
