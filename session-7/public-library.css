@@ -6,7 +6,24 @@ HEADER
   - √ change color from blue
   - √ remove underline (only want when hovered)
   - √ font family
+
+  NAVIGATION
+  - √ remove bullets
+  - √ make all links inline
+  - √ put navigation next to site name
+  - √ font family
+  - √ font size
+  - √ spacing between links
+  - √ vertical alignment of lists with site name
+  - √ keep projects underlined because its the active page
+  - √ fix kerning maybe?
+  - √ fix underline spacing
 */
+
+body {
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+}
 
 a {
   color: black;
@@ -14,15 +31,41 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid black;
 }
 
 .site-title {
   font-size: 13px;
   font-weight: normal;
-  font-family: "franklin-gothic-urw-n4", "franklin-gothic-urw", sans-serif;
+  float: left;
+  margin: 18px;
+  margin-right: 0;
+}
+
+.navigation {
+  float: left;
+  margin: 18px;
+  margin-left: 30px;
+}
+
+.navigation-list {
+  list-style: none;
+  font-size: 13px;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* <li> tags inside of .navigation-list */
+.navigation-list li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.current-page a {
+  border-bottom: 1px solid black;
 }
 
 .project-list {
   list-style: none;
+  clear: both;
 }
