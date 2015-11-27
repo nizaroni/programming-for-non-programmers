@@ -71,7 +71,7 @@ the search bar, control bar and message list.
 
 Ignore the sections crossed out here:
 
-![Gmail layout with sections crossed out](gmail-layout.png)
+![Gmail layout with sections crossed out](img/gmail-layout.png)
 
 
 #### Colors ####
